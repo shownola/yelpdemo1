@@ -36,6 +36,16 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap', '~> 4.0.0.beta'
 
+
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
+gem 'fog'
+gem 'fog-aws', group: :production
+#gem 'carrierwave', '~> 1.0'
+gem "figaro"
+
+
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -51,8 +61,6 @@ group :development do
   
   gem 'rails_12factor', group: :production
   gem 'pg', group: :production
-  gem 'carrierwave', '~> 1.0'
-  gem "fog"
-  gem "figaro"
+ 
 end
 

@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/carrierwaveuploader/carrierwave.git
+  revision: 7389a82f17d2547766c290b6f1398c9da794353b
+  specs:
+    carrierwave (1.1.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -48,10 +57,6 @@ GEM
       sass (>= 3.4.19)
     builder (3.2.3)
     byebug (9.1.0)
-    carrierwave (1.1.0)
-      activemodel (>= 4.0.0)
-      activesupport (>= 4.0.0)
-      mime-types (>= 1.16)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -332,10 +337,11 @@ PLATFORMS
 DEPENDENCIES
   bootstrap (~> 4.0.0.beta)
   byebug
-  carrierwave (~> 1.0)
+  carrierwave!
   coffee-rails (~> 4.1.0)
   figaro
   fog
+  fog-aws
   jbuilder (~> 2.0)
   jquery-rails
   pg
