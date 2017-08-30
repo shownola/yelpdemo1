@@ -41,7 +41,8 @@ gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'fog'
 gem 'fog-aws', group: :production
 #gem 'carrierwave', '~> 1.0'
-gem "figaro"
+gem 'figaro'
+gem 'mini_magick'
 
 
 
